@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-stylesheet type="text/xsl" href="configuration.xsl"?>
+
+<!-- Put site-specific property overrides in this file. -->
+
+<configuration>
+<property>
+  <name>mapred.job.tracker</name>
+  <value>localhost:54311</value>
+</property>
+  
+<property>
+  <name>mapred.system.dir</name>
+  <value>/opt/tmp/system</value>
+  <description>The shared directory where MapReduce stores control files.
+  </description>
+</property> 
+
+<property>
+  <name>mapred.job.tracker.http.address</name>
+  <value>0.0.0.0:50030</value>
+  <description>
+    The job tracker http server address and port the server will listen on.
+    If the port is 0 then the server will start on a free port.
+  </description>
+</property>
+
+<property>
+  <name>mapred.task.tracker.http.address</name>
+  <value>0.0.0.0:51060</value>
+  <description>
+    The task tracker http server address and port.
+    If the port is 0 then the server will start on a free port.
+  </description>
+</property>
+</configuration>

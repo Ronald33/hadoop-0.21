@@ -1,0 +1,58 @@
+2016-06-28 23:12:01,892 INFO org.apache.hadoop.mapred.JobTracker: STARTUP_MSG: 
+/************************************************************
+STARTUP_MSG: Starting JobTracker
+STARTUP_MSG:   host = ronald-lap/127.0.1.1
+STARTUP_MSG:   args = []
+STARTUP_MSG:   version = 0.21.0
+STARTUP_MSG:   classpath = /opt/hadoop-0.21.0/bin/../conf:/usr/lib/jvm/java-7-oracle/lib/tools.jar:/opt/hadoop-0.21.0/bin/..:/opt/hadoop-0.21.0/bin/../hadoop-common-0.21.0.jar:/opt/hadoop-0.21.0/bin/../hadoop-common-test-0.21.0.jar:/opt/hadoop-0.21.0/bin/../hadoop-hdfs-0.21.0.jar:/opt/hadoop-0.21.0/bin/../hadoop-hdfs-0.21.0-sources.jar:/opt/hadoop-0.21.0/bin/../hadoop-hdfs-ant-0.21.0.jar:/opt/hadoop-0.21.0/bin/../hadoop-hdfs-test-0.21.0.jar:/opt/hadoop-0.21.0/bin/../hadoop-hdfs-test-0.21.0-sources.jar:/opt/hadoop-0.21.0/bin/../hadoop-mapred-0.21.0.jar:/opt/hadoop-0.21.0/bin/../hadoop-mapred-0.21.0-sources.jar:/opt/hadoop-0.21.0/bin/../hadoop-mapred-examples-0.21.0.jar:/opt/hadoop-0.21.0/bin/../hadoop-mapred-test-0.21.0.jar:/opt/hadoop-0.21.0/bin/../hadoop-mapred-tools-0.21.0.jar:/opt/hadoop-0.21.0/bin/../lib/ant-1.6.5.jar:/opt/hadoop-0.21.0/bin/../lib/asm-3.2.jar:/opt/hadoop-0.21.0/bin/../lib/aspectjrt-1.6.5.jar:/opt/hadoop-0.21.0/bin/../lib/aspectjtools-1.6.5.jar:/opt/hadoop-0.21.0/bin/../lib/avro-1.3.2.jar:/opt/hadoop-0.21.0/bin/../lib/commons-cli-1.2.jar:/opt/hadoop-0.21.0/bin/../lib/commons-codec-1.4.jar:/opt/hadoop-0.21.0/bin/../lib/commons-el-1.0.jar:/opt/hadoop-0.21.0/bin/../lib/commons-httpclient-3.1.jar:/opt/hadoop-0.21.0/bin/../lib/commons-lang-2.5.jar:/opt/hadoop-0.21.0/bin/../lib/commons-logging-1.1.1.jar:/opt/hadoop-0.21.0/bin/../lib/commons-logging-api-1.1.jar:/opt/hadoop-0.21.0/bin/../lib/commons-net-1.4.1.jar:/opt/hadoop-0.21.0/bin/../lib/core-3.1.1.jar:/opt/hadoop-0.21.0/bin/../lib/ftplet-api-1.0.0.jar:/opt/hadoop-0.21.0/bin/../lib/ftpserver-core-1.0.0.jar:/opt/hadoop-0.21.0/bin/../lib/ftpserver-deprecated-1.0.0-M2.jar:/opt/hadoop-0.21.0/bin/../lib/hsqldb-1.8.0.10.jar:/opt/hadoop-0.21.0/bin/../lib/jackson-core-asl-1.4.2.jar:/opt/hadoop-0.21.0/bin/../lib/jackson-mapper-asl-1.4.2.jar:/opt/hadoop-0.21.0/bin/../lib/jasper-compiler-5.5.12.jar:/opt/hadoop-0.21.0/bin/../lib/jasper-runtime-5.5.12.jar:/opt/hadoop-0.21.0/bin/../lib/jdiff-1.0.9.jar:/opt/hadoop-0.21.0/bin/../lib/jets3t-0.7.1.jar:/opt/hadoop-0.21.0/bin/../lib/jetty-6.1.14.jar:/opt/hadoop-0.21.0/bin/../lib/jetty-util-6.1.14.jar:/opt/hadoop-0.21.0/bin/../lib/jsp-2.1-6.1.14.jar:/opt/hadoop-0.21.0/bin/../lib/jsp-api-2.1-6.1.14.jar:/opt/hadoop-0.21.0/bin/../lib/junit-4.8.1.jar:/opt/hadoop-0.21.0/bin/../lib/kfs-0.3.jar:/opt/hadoop-0.21.0/bin/../lib/log4j-1.2.15.jar:/opt/hadoop-0.21.0/bin/../lib/mina-core-2.0.0-M5.jar:/opt/hadoop-0.21.0/bin/../lib/mockito-all-1.8.2.jar:/opt/hadoop-0.21.0/bin/../lib/oro-2.0.8.jar:/opt/hadoop-0.21.0/bin/../lib/paranamer-2.2.jar:/opt/hadoop-0.21.0/bin/../lib/paranamer-ant-2.2.jar:/opt/hadoop-0.21.0/bin/../lib/paranamer-generator-2.2.jar:/opt/hadoop-0.21.0/bin/../lib/qdox-1.10.1.jar:/opt/hadoop-0.21.0/bin/../lib/servlet-api-2.5-6.1.14.jar:/opt/hadoop-0.21.0/bin/../lib/slf4j-api-1.5.11.jar:/opt/hadoop-0.21.0/bin/../lib/slf4j-log4j12-1.5.11.jar:/opt/hadoop-0.21.0/bin/../lib/xmlenc-0.52.jar:/opt/hadoop-0.21.0/bin/../lib/jsp-2.1/*.jar:/opt/hadoop-0.21.0/bin/../hdfs/conf:/opt/hadoop-0.21.0/bin/../hdfs/hadoop-hdfs-*.jar:/opt/hadoop-0.21.0/bin/../hdfs/lib/*.jar:/opt/hadoop-0.21.0/mapred/bin/../conf:/opt/hadoop-0.21.0/mapred/bin/../hadoop-mapred-*.jar:/opt/hadoop-0.21.0/mapred/bin/../lib/*.jar:/opt/hadoop-0.21.0/mapred/bin/../hadoop-mapred-*.jar:/opt/hadoop-0.21.0/mapred/bin/../lib/*.jar
+STARTUP_MSG:   build = https://svn.apache.org/repos/asf/hadoop/common/branches/branch-0.21 -r 985326; compiled by 'tomwhite' on Tue Aug 17 01:02:28 EDT 2010
+************************************************************/
+2016-06-28 23:12:02,056 INFO org.apache.hadoop.security.Groups: Group mapping impl=org.apache.hadoop.security.ShellBasedUnixGroupsMapping; cacheTimeout=300000
+2016-06-28 23:12:02,059 INFO org.apache.hadoop.mapred.JobTracker: Starting jobtracker with owner as ronald and supergroup as supergroup
+2016-06-28 23:12:02,060 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2016-06-28 23:12:02,061 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Starting expired delegation token remover thread, tokenRemoverScanInterval=60 min(s)
+2016-06-28 23:12:02,061 INFO org.apache.hadoop.security.token.delegation.AbstractDelegationTokenSecretManager: Updating the current master key for generating delegation tokens
+2016-06-28 23:12:02,061 INFO org.apache.hadoop.mapred.JobTracker: Scheduler configured with (memSizeForMapSlotOnJT, memSizeForReduceSlotOnJT, limitMaxMemForMapTasks, limitMaxMemForReduceTasks) (-1, -1, -1, -1)
+2016-06-28 23:12:02,062 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2016-06-28 23:12:02,112 INFO org.apache.hadoop.mapred.QueueManager: AllQueues : {default=default}; LeafQueues : {default=default}
+2016-06-28 23:12:02,149 INFO org.apache.hadoop.ipc.Server: Starting SocketReader
+2016-06-28 23:12:02,158 INFO org.apache.hadoop.ipc.metrics.RpcMetrics: Initializing RPC Metrics with hostName=JobTracker, port=54311
+2016-06-28 23:12:02,160 INFO org.apache.hadoop.ipc.metrics.RpcDetailedMetrics: Initializing RPC Metrics with hostName=JobTracker, port=54311
+2016-06-28 23:12:02,236 INFO org.mortbay.log: Logging to org.slf4j.impl.Log4jLoggerAdapter(org.mortbay.log) via org.mortbay.log.Slf4jLog
+2016-06-28 23:12:02,279 INFO org.apache.hadoop.http.HttpServer: Added global filtersafety (class=org.apache.hadoop.http.HttpServer$QuotingInputFilter)
+2016-06-28 23:12:02,283 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: History log directory is file:////opt/hadoop-0.21.0/bin/../logs/history
+2016-06-28 23:12:02,300 INFO org.apache.hadoop.http.HttpServer: Port returned by webServer.getConnectors()[0].getLocalPort() before open() is -1. Opening the listener on 50030
+2016-06-28 23:12:02,300 INFO org.apache.hadoop.http.HttpServer: listener.getLocalPort() returned 50030 webServer.getConnectors()[0].getLocalPort() returned 50030
+2016-06-28 23:12:02,300 INFO org.apache.hadoop.http.HttpServer: Jetty bound to port 50030
+2016-06-28 23:12:02,300 INFO org.mortbay.log: jetty-6.1.14
+2016-06-28 23:12:02,528 INFO org.mortbay.log: Started SelectChannelConnector@0.0.0.0:50030
+2016-06-28 23:12:02,529 INFO org.apache.hadoop.metrics.jvm.JvmMetrics: Initializing JVM Metrics with processName=JobTracker, sessionId=
+2016-06-28 23:12:02,529 INFO org.apache.hadoop.mapred.JobTracker: JobTracker up at: 54311
+2016-06-28 23:12:02,529 INFO org.apache.hadoop.mapred.JobTracker: JobTracker webserver: 50030
+2016-06-28 23:12:02,588 WARN org.apache.hadoop.conf.Configuration: mapred.task.id is deprecated. Instead, use mapreduce.task.attempt.id
+2016-06-28 23:12:02,630 INFO org.apache.hadoop.mapred.JobTracker: Cleaning up the system directory
+2016-06-28 23:12:02,736 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Creating DONE folder at file:/opt/hadoop-0.21.0/logs/history/done
+2016-06-28 23:12:02,740 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Inited the done directory to file:/opt/hadoop-0.21.0/logs/history/done
+2016-06-28 23:12:02,744 INFO org.apache.hadoop.mapreduce.jobhistory.JobHistory: Job History Cleaner Thread started. MaxAge is 604800000 ms(7.0 days), Cleanup Frequency is 86400000 ms (1.0 days)
+2016-06-28 23:12:02,748 WARN org.apache.hadoop.conf.Configuration: topology.node.switch.mapping.impl is deprecated. Instead, use net.topology.node.switch.mapping.impl
+2016-06-28 23:12:02,763 INFO org.apache.hadoop.mapred.CompletedJobStatusStore: Completed job store activated/configured with retain-time : 3600000 , job-info-dir : /jobtracker/jobsInfo
+2016-06-28 23:12:02,887 INFO org.apache.hadoop.mapred.JobTracker: Refreshing hosts information
+2016-06-28 23:12:02,935 INFO org.apache.hadoop.util.HostsFileReader: Setting the includes file to 
+2016-06-28 23:12:02,935 INFO org.apache.hadoop.util.HostsFileReader: Setting the excludes file to 
+2016-06-28 23:12:02,935 INFO org.apache.hadoop.util.HostsFileReader: Refreshing hosts (include/exclude) list
+2016-06-28 23:12:02,935 INFO org.apache.hadoop.mapred.JobTracker: Decommissioning 0 nodes
+2016-06-28 23:12:02,936 INFO org.apache.hadoop.ipc.Server: IPC Server Responder: starting
+2016-06-28 23:12:02,936 INFO org.apache.hadoop.ipc.Server: IPC Server listener on 54311: starting
+2016-06-28 23:12:02,938 INFO org.apache.hadoop.ipc.Server: IPC Server handler 0 on 54311: starting
+2016-06-28 23:12:02,938 INFO org.apache.hadoop.ipc.Server: IPC Server handler 1 on 54311: starting
+2016-06-28 23:12:02,938 INFO org.apache.hadoop.ipc.Server: IPC Server handler 2 on 54311: starting
+2016-06-28 23:12:02,938 INFO org.apache.hadoop.ipc.Server: IPC Server handler 3 on 54311: starting
+2016-06-28 23:12:02,938 INFO org.apache.hadoop.ipc.Server: IPC Server handler 4 on 54311: starting
+2016-06-28 23:12:02,939 INFO org.apache.hadoop.ipc.Server: IPC Server handler 5 on 54311: starting
+2016-06-28 23:12:02,939 INFO org.apache.hadoop.ipc.Server: IPC Server handler 6 on 54311: starting
+2016-06-28 23:12:02,939 INFO org.apache.hadoop.ipc.Server: IPC Server handler 7 on 54311: starting
+2016-06-28 23:12:02,939 INFO org.apache.hadoop.ipc.Server: IPC Server handler 8 on 54311: starting
+2016-06-28 23:12:02,939 INFO org.apache.hadoop.mapred.JobTracker: Starting RUNNING
+2016-06-28 23:12:02,939 INFO org.apache.hadoop.ipc.Server: IPC Server handler 9 on 54311: starting
+2016-06-28 23:12:04,079 INFO org.apache.hadoop.net.NetworkTopology: Adding a new node: /default-rack/ronald-lap
+2016-06-28 23:12:04,081 INFO org.apache.hadoop.mapred.JobTracker: Adding tracker tracker_ronald-lap:localhost/127.0.0.1:38945 to host ronald-lap
